@@ -39,3 +39,7 @@ function setButtonText(heart, button) {
     );
   }
 }
+
+document.querySelector('.ok').addEventListener('click', () => {
+  document.getElementById('dialog-id').close();
+});
